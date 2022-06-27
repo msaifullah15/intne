@@ -1,0 +1,342 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    padding: 75px 0;
+}
+.container{
+    width: 90%;
+}
+header{
+    background-color: #87509c;
+    color: white;
+    width: 100%;
+    text-align: center;
+padding: 1px;
+}
+    nav{
+width: 100%;
+float: left;
+margin-left:100px;
+    }
+.logo-part{
+    width: 50%;
+    float: left;
+    text-align: start;
+;
+
+}
+.menu-part{
+    width: 50%;
+    float: left;
+    padding: 20px 0px;
+    font-family: 20px;
+}
+.menu-part ul{
+    padding-left: 15px;
+}
+
+.menu-part li{
+    list-style: none;
+    display: inline-block;
+}
+.menu-part a{
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px;
+    transition: ease-in-out 0.5s;
+
+}
+.menu-part a:hover{
+    background-color: #00000075;
+    cursor: pointer;
+padding: 10px;
+border-radius: 5px;
+
+}
+.header-writing-part{
+    width: 100%;
+  margin: 50px 0;
+    text-align: center;
+    
+
+}
+.header-writing-part h1{
+
+
+}
+.header-writing-part a button{
+    width: 200px;
+    padding: 10px;
+    color: #ffff;
+    background-color: #eb7d4b;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.header-writing-part a button:hover{
+
+}
+#servece{
+    width: 100%;
+    float: left;
+    background-color: #17c2a4;
+    color: white;
+    text-align: center;
+}
+.service-writing-part{
+    width: 100%;
+    float: left;
+    margin-left: 50px;
+}
+.service-writing-part h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+font-weight: 600;
+line-height: 1.9ren;
+
+}
+service-writing-part p{
+width: 50%;
+margin: auto;
+line-height: 1PX;
+}
+.service-box-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+
+}
+.service-box{
+    width: 25%;
+    float: left;
+}
+.service-box img{
+}
+.service-box h2{
+    margin: 10px 0px;
+}
+.service-box p{
+
+}
+/* =====================team-part============ */
+#team{
+    width: 100%;
+    float: left;
+    background-color: rgba(119, 178, 201, 0.445);
+    color: black;
+    text-align: center;
+    padding-left: 100px;
+}
+.team-writing-part{
+    width: 100%;
+    float: left;
+
+
+}
+team-writing-part h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+font-weight: 600;
+line-height: 1.9ren;
+
+}
+#underline{
+    display: block;
+    color: #eb7d4b;
+    width: 50%;
+    li
+}
+team-writing-part p {
+    width: 50%;
+    margin: auto;
+    line-height: 1PX;
+}
+.team-box-part{
+    width: 100%;
+    float: left;
+
+}
+.team-box{
+    width: 25%;
+    float: left;
+
+}
+.font-osam{
+  padding: 20px 0px;
+}
+.team-box{
+    padding-top: 40px;
+}
+.team-box h2 {
+    margin: 10px 0px;
+}
+.team-box p {
+    line-height: 25px;
+
+}
+.team-box a {
+    padding: 10px ;
+    line-height: 50px;
+    text-decoration: none;
+}
+.team-box a:hover {
+    cursor: pointer;
+    background-color: #87509c;
+    color: white;
+}
+/* ===============skills ppart===/ */
+#skills{
+    width: 100%;
+    float: left;
+    background-color: rgba(226, 216, 216, 0.781);
+    color: black;
+    text-align: center;
+}
+.skills-writing-part{
+    width: 100%;
+    float: left;
+
+
+}
+skills-writing-part h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+font-weight: 600;
+line-height: 1.9ren;
+
+}
+skills-writing-part p{
+    width: 50%;
+    margin: auto;
+    line-height: 1PX;
+    padding-top: 20px;
+}
+.skills-box-part{
+    width: 100%;
+    float: left;
+   
+
+}
+.skills-box{
+    width: 25%;
+    float: left;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+
+}
+.skills-box{
+    padding-top: 40px;
+}
+.skills-box h2 {
+    margin: 10px 0px;
+}
+
+/* =====================PORTFOLIO-part=========== */
+#portfolto{
+    width: 100%;
+    float: left;
+    background-color: rgba(219, 197, 70, 0.596);
+    color: black;
+    text-align: center;
+}
+.portfolto-writing-part{
+    width: 100%;
+    float: left;
+}
+portfolto-writing-part h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+font-weight: 600;
+line-height: 1.9ren;
+
+}
+portfolto-writing-part p{
+    width: 50%;
+    margin: auto;
+    line-height: 1PX;
+    padding-top: 20px;
+}
+.portfolto-box-part{
+    width: 100%;
+    float: left;
+
+}
+.portfolto-box{
+    width: 25%;
+    float: left;
+    padding-left: 100px;
+    padding: 250px;
+
+}
+.portfolto-box{
+    padding-top: 40px;
+}
+.portfolto-box h2 {
+    margin: 10px 0px;
+    padding: 0px 100Px;
+}
+/* <!-- =========================ABOUT US================ --> */
+#aboutus{
+    width: 100%;
+    float: left;
+    background-color: rgba(226, 216, 216, 0.781);
+    color: black;
+    text-align: center;
+}
+.aboutus-writing-part{
+    width: 100%;
+    float: left;
+
+
+}
+aboutus-writing-part h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+font-weight: 600;
+line-height: 1.9ren;
+
+}
+aboutus-writing-part p{
+    width: 50%;
+    margin: auto;
+    line-height: 1PX;
+    padding-top: 20px;
+}
+.aboutus-box-part{
+    width: 100%;
+    float: left;
+   
+
+}
+.aboutus-box{
+    width: 25%;
+    float: left;
+    justify-content: center;
+    text-align: center;
+    padding: 15%;
+    padding-left: 300px;
+
+}
+.aboutus-box{
+    padding-top: 40px;
+}
+.aboutus-box h2 {
+    margin: 10px 0px;
+}
+.aboutus-box p {
+    width: 600px;
+    color: #87509c;
+    height: 50px;
+    text-align: center;
+    padding: 1%;
+    
+
+}
